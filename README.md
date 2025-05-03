@@ -32,8 +32,9 @@ dist/pedra_papel_tesoura.exe
 
 ```
 .
-├── biblioteca.py                # Funções auxiliares do jogo (lógica de vitória, empate etc.)
-├── main_otimizado.py            # Código principal do jogo
+├── src/
+│   ├── biblioteca.py            # Funções auxiliares do jogo (lógica de vitória, empate etc.)
+│   └── main_otimizado.py        # Código principal do jogo
 ├── dist/
 │   └── pedra_papel_tesoura.exe  # Arquivo executável do jogo
 ```
